@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DOM</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hi+Melody&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/bootstrap.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<header class="header-top" id="top">
+			<h1 class="text-center p-4">Color Game</h1>
+			<!-- <div class="nav navbar">
+				<div id="left"></div>
+				<div id="right">
+					<ul>
+						<li class="home"><a href="#"> Home </a></li>
+						<li class="about"><a href="#"> About </a></li>
+						<li class="contact"><a href="#"> Contact </a></li>
+						<li class="signIn"><a href="#"> Sign-in </a></li>
+					</ul>
+				</div>
+			</div> -->
+		</header>
+		<section class="main">
+			<div class="menu row w-75">
+				<div class="col-3">
+					<button type="button" id="button" class="btn btn-primary">
+						Play
+					</button>
+				</div>
+				<div class="col-3 btn" id="colorDispaly">#000000</div>
+				<div class=" col-3 btn">
+					<i class="fa-solid fa-clock"></i> <span class="timer">Timer</span>
+				</div>
+				<div class="reward col-3 btn badge">Let's Go</div>
+			</div>
+		</section>
+		<hr />
+		<section class="sec1">
+			<div class="container-fluid row item-wrapper">
+				<div class="item card"></div>
+				<div class="item card"></div>
+				<div class="item card"></div>
+				<div class="item card"></div>
+				<div class="item card"></div>
+				<div class="item card"></div>
+				<div class="item card"></div>
+				<div class="item card"></div>
+				<div class="item card"></div>
+			</div>
+		</section>
+		<footer class="footer-top">
+			<hr />
+			<p class="text-center">Copyright © 2024 codscript All rights reserved.</p>
+		</footer>
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
